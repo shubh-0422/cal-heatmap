@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/cal-heatmap/static/css/main.6293b892.chunk.css",
+    "main.js": "/cal-heatmap/static/js/main.3d295f33.chunk.js",
+    "main.js.map": "/cal-heatmap/static/js/main.3d295f33.chunk.js.map",
+    "runtime-main.js": "/cal-heatmap/static/js/runtime-main.aacc75af.js",
+    "runtime-main.js.map": "/cal-heatmap/static/js/runtime-main.aacc75af.js.map",
+    "static/js/2.1fd2e227.chunk.js": "/cal-heatmap/static/js/2.1fd2e227.chunk.js",
+    "static/js/2.1fd2e227.chunk.js.map": "/cal-heatmap/static/js/2.1fd2e227.chunk.js.map",
+    "static/js/3.f52d989a.chunk.js": "/cal-heatmap/static/js/3.f52d989a.chunk.js",
+    "static/js/3.f52d989a.chunk.js.map": "/cal-heatmap/static/js/3.f52d989a.chunk.js.map",
+    "index.html": "/cal-heatmap/index.html",
+    "static/css/main.6293b892.chunk.css.map": "/cal-heatmap/static/css/main.6293b892.chunk.css.map",
+    "static/js/2.1fd2e227.chunk.js.LICENSE.txt": "/cal-heatmap/static/js/2.1fd2e227.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/cal-heatmap/static/media/bac.2416b83e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.aacc75af.js",
+    "static/js/2.1fd2e227.chunk.js",
+    "static/css/main.6293b892.chunk.css",
+    "static/js/main.3d295f33.chunk.js"
+  ]
+}
