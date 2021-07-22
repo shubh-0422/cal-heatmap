@@ -1,37 +1,40 @@
-.contain{
-  position: absolute;
-  width: 100vw;
-  height: 100%;
-  padding: 0;margin: 0;
-  background-repeat: no-repeat;
-  background-image: url("./assets/bac.png");
-  background-color: #f2f2f2;
-  z-index: -1;
-
+.contain {
+	position: absolute;
+	width: 100vw;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	background-repeat: no-repeat;
+	background-image: url("./assets/bac.png");
+	background-color: #f2f2f2;
+	z-index: -1;
 }
 /* /hello */
 
-.main{
-  padding-top: 100px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: 0 40px ;
-  /* width: 100%; */
+.main {
+	width: 90vw;
+  margin: 0 5vw;
+	padding-top: 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	/* margin: 0 40px; */
+
+	/* width: 100%; */
 }
-.sub{
-  
-  width: 100%;
-  margin-bottom:40px;
-  padding: 20px;
-  border-radius:10px;
-  background-color:white;
-  box-shadow: 50px 50px 50px #E6DEDE;
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
+.sub {
+	width: 100%;
+	margin-bottom: 40px;
+	padding: 20px;
+	border-radius: 10px;
+	background-color: white;
+	box-shadow: 50px 50px 50px #e6dede;
+	/* align-items: center; */
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
 }
-.main .sub h1,h2{
-  color: #162780;
+.main .sub h1,
+h2 {
+	color: #162780;
 }
