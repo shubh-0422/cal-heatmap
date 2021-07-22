@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/cal-heatmap/static/css/main.2f2400c4.chunk.css",
-    "main.js": "/cal-heatmap/static/js/main.3b27d1ce.chunk.js",
-    "main.js.map": "/cal-heatmap/static/js/main.3b27d1ce.chunk.js.map",
+    "main.css": "/cal-heatmap/static/css/main.efcdaf7f.chunk.css",
+    "main.js": "/cal-heatmap/static/js/main.a290c961.chunk.js",
+    "main.js.map": "/cal-heatmap/static/js/main.a290c961.chunk.js.map",
     "runtime-main.js": "/cal-heatmap/static/js/runtime-main.502225b7.js",
     "runtime-main.js.map": "/cal-heatmap/static/js/runtime-main.502225b7.js.map",
     "static/js/2.0fc48748.chunk.js": "/cal-heatmap/static/js/2.0fc48748.chunk.js",
@@ -10,14 +10,14 @@
     "static/js/3.e912813b.chunk.js": "/cal-heatmap/static/js/3.e912813b.chunk.js",
     "static/js/3.e912813b.chunk.js.map": "/cal-heatmap/static/js/3.e912813b.chunk.js.map",
     "index.html": "/cal-heatmap/index.html",
-    "static/css/main.2f2400c4.chunk.css.map": "/cal-heatmap/static/css/main.2f2400c4.chunk.css.map",
+    "static/css/main.efcdaf7f.chunk.css.map": "/cal-heatmap/static/css/main.efcdaf7f.chunk.css.map",
     "static/js/2.0fc48748.chunk.js.LICENSE.txt": "/cal-heatmap/static/js/2.0fc48748.chunk.js.LICENSE.txt",
     "static/media/App.css": "/cal-heatmap/static/media/bac.2416b83e.png"
   },
   "entrypoints": [
     "static/js/runtime-main.502225b7.js",
     "static/js/2.0fc48748.chunk.js",
-    "static/css/main.2f2400c4.chunk.css",
-    "static/js/main.3b27d1ce.chunk.js"
+    "static/css/main.efcdaf7f.chunk.css",
+    "static/js/main.a290c961.chunk.js"
   ]
 }
