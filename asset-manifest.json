@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/cal-heatmap/static/css/main.efcdaf7f.chunk.css",
-    "main.js": "/cal-heatmap/static/js/main.a290c961.chunk.js",
-    "main.js.map": "/cal-heatmap/static/js/main.a290c961.chunk.js.map",
+    "main.js": "/cal-heatmap/static/js/main.bf446de1.chunk.js",
+    "main.js.map": "/cal-heatmap/static/js/main.bf446de1.chunk.js.map",
     "runtime-main.js": "/cal-heatmap/static/js/runtime-main.502225b7.js",
     "runtime-main.js.map": "/cal-heatmap/static/js/runtime-main.502225b7.js.map",
     "static/js/2.0fc48748.chunk.js": "/cal-heatmap/static/js/2.0fc48748.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.502225b7.js",
     "static/js/2.0fc48748.chunk.js",
     "static/css/main.efcdaf7f.chunk.css",
-    "static/js/main.a290c961.chunk.js"
+    "static/js/main.bf446de1.chunk.js"
   ]
 }
