@@ -1,4 +1,3 @@
-
 import React, { useState } from "react";
 import Tooltip from "@material-ui/core/Tooltip";
 
@@ -98,7 +97,7 @@ const CustomCalHeatmap = ({
 				finalColor = colors[3];
 			} else if (objMatch.count > 5) {
 				finalColor = colors[2];
-			} else if (objMatch.count > 2) {
+			} else if (objMatch.count > 0) {
 				finalColor = colors[1];
 			}
 
@@ -106,7 +105,7 @@ const CustomCalHeatmap = ({
 			var date = formatDate(currentDate);
 			dateArray.push({
 				singledate: currentDate.getDate(),
-				date: date,
+				date: new Date(date),
 				day: currentDate.getDay(),
 				month: monthsName[currentDate.getMonth()],
 				year: currentDate.getFullYear(),
@@ -115,10 +114,11 @@ const CustomCalHeatmap = ({
 			});
 			currentDate = addDays(currentDate, 1);
 		}
+		// console.log(dateArray);
 		return dateArray;
 	};
 	const onBoxclick = (currentDate) => {
-		console.log("box", currentDate.date, currentDate.count);
+		// console.log("box", currentDate.date, currentDate.count);
 		onClick(currentDate.date, currentDate.count);
 	};
 	return (
@@ -127,12 +127,17 @@ const CustomCalHeatmap = ({
 				<div style={{ fontSize: `${rectWidth + 3}px`, marginLeft: "100px" }}>
 					{prefix1}
 				</div>
-				<div style={{ postion:'fixed',fontSize: `${rectWidth + 3}px`, marginRight: `70px` }}>
+				<div
+					style={{
+						postion: "fixed",
+						fontSize: `${rectWidth + 3}px`,
+						marginRight: `70px`,
+					}}
+				>
 					{prefix2}
 				</div>
 			</div>
-			<div style={{overflowX: "scroll",
-  scrollbarWidth: "none"}}>
+			<div style={{ overflowX: "scroll", scrollbarWidth: "none" }}>
 				<ui
 					style={{
 						listStyleType: "none",
@@ -173,7 +178,7 @@ const CustomCalHeatmap = ({
 								style={{
 									paddingBottom: "5px",
 									fontSize: `${rectWidth + 3}px`,
-									marginRight:"25px",
+									marginRight: "25px",
 									marginLeft: `${
 										Math.floor(1 / 7) * (rectWidth + marginRight)
 									}px`,
@@ -216,7 +221,7 @@ const CustomCalHeatmap = ({
 															} ${new Date(current.date).getDate()}, ${new Date(
 																current.date
 															).getFullYear()}										
-										}`}
+										`}
 															placement="top"
 														>
 															<svg

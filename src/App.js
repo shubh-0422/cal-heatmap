@@ -70,13 +70,13 @@ const App = () => {
 						onClick={(date, count) => {
 							console.log("onn click", date, count);
 							if (count === 0) {
-								setMessage(`No changes available On ${Date(date).toString()}`);
+								setMessage(`No changes available On ${new Date(date).toString()}`);
 
 								setInfos([]);
 							}
 							if (count > 0) {
 								setMessage(
-									`Showing ${count} changes that occurred On ${Date(
+									`Showing ${count} changes that occurred On ${new Date(
 										date
 									).toString()}`
 								);
